@@ -1,0 +1,13 @@
+{
+  "name": "phoenix_htmx app",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/app",
+  "extensions": [
+    "JakeBecker.elixir-ls",
+    "phoenixframework.phoenix"
+  ],
+  "forwardPorts": [
+    4000
+  ]
+}
